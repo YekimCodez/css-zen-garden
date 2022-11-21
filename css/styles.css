@@ -57,7 +57,9 @@ img {
    /* Bg-colors */
    --bg-lite-blue: rgb(207, 245, 231);
    --bg-md-blue: rgb(160, 228, 203);
-   --bg-drk-blue: rgb(89, 193, 189);
+   --bg-lite-green: hsl(180, 100%, 15%);
+   --bg-lite-blue: hsl(180, 100%, 35%);
+   /* --bg-drk-blue: rgb(89, 193, 189); */
    --bg-hvy-blue: rgb(13, 76, 146);
    --bg-seamoss-green: rgb(109, 152, 134);
    --bg-drk-charcoal: rgb(57, 62, 70);
@@ -74,7 +76,7 @@ section.intro {
     margin: 0 auto;
     width: 100%;
     max-width: max-content;
-    background: var(--bg-md-blue);
+    background: var(--bg-lite-blue);
 }
 
 header[role="banner"] {
