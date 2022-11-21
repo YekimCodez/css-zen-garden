@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Roboto:wght@100;500;700;900&display=swap');
+
+
+/* CSS reset */
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    /* font weight */
+    --fw-lite: 100;
+   --fw-norm: 400;
+   --fw-medium: 500;
+   --fw-heavey: 900;
+   
+   /* font-size */
+   --fs-small: ;
+   --fs-medium: ;
+   --fs-large: ;
+
+   /* font-colors */
+   --fc-lite: #eee4e4;
+   --fc-medium: #333;
+   --fc-dark: #000;
+
+   /* Bg-colors */
+   --bg-lite-blue: rgb(207, 245, 231);
+   --bg-md-blue: rgb(160, 228, 203);
+   --bg-drk-blue: rgb(89, 193, 189);
+   --bg-hvy-blue: rgb(13, 76, 146);
+   --bg-seamoss-green: rgb(109, 152, 134);
+   --bg-drk-charcoal: rgb(57, 62, 70);
+}
+
+.intro {
+    background: var(--lite);
+    color: var(--medium);
+    padding: 2em;
+}
+
+section.intro {
+    background: var(--bg-md-blue);
+}
+
+header[role="banner"] {
+    width: 100%;
+    background-color: var(--bg-hvy-blue);
+    color: var(--fc-lite);
+    width: 100%;
+    padding: 1em 3em;
+    text-align: center;
+}
