@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Roboto:wght@100;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100&display=swap');
 
 
 /* CSS reset */
@@ -20,6 +20,11 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
 ul,
 ol {
     list-style-type: none;
@@ -30,11 +35,14 @@ img {
 }
 
 :root {
+    /* font-family */
+   --ff-thin-italic: ;
+
     /* font weight */
     --fw-lite: 100;
    --fw-norm: 400;
    --fw-medium: 500;
-   --fw-heavey: 900;
+   --fw-heavy: 900;
    
    /* font-size */
    --fs-small: ;
@@ -53,6 +61,7 @@ img {
    --bg-hvy-blue: rgb(13, 76, 146);
    --bg-seamoss-green: rgb(109, 152, 134);
    --bg-drk-charcoal: rgb(57, 62, 70);
+
 }
 
 .intro {
@@ -62,14 +71,52 @@ img {
 }
 
 section.intro {
+    margin: 0 auto;
+    width: 100%;
+    max-width: max-content;
     background: var(--bg-md-blue);
 }
 
 header[role="banner"] {
     width: 100%;
-    background-color: var(--bg-hvy-blue);
     color: var(--fc-lite);
     width: 100%;
     padding: 1em 3em;
     text-align: center;
+}
+
+header[role="banner"] h1, h2 {
+    font-size: 3.5rem;
+    font-weight: var(--fw-heavy);
+}
+
+div.summary {
+    font-style: italic;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+div.summary p:nth-child(odd) {
+    margin-bottom: 20px;
+    font-weight: var(--fw-heavy);
+    padding: 0 7em;
+    text-align: center;
+}
+
+div.summary p:nth-child(even) {
+    margin-bottom: 20px;
+    font-weight: var(--fw-heavy);
+    padding: 0 7em;
+    text-align: center;
+}
+
+.preamble, 
+.supporting,
+.participation,
+.benefits,
+.requirements {
+    margin: 0 auto;
+    width: 80%;
 }
