@@ -43,6 +43,7 @@ img {
     max-width: 100%;
 }
 
+/* custom properties */
 :root {
     /* font-family */
    --ff-thin-italic: ;
@@ -80,8 +81,7 @@ header[role="banner"] {
     background: linear-gradient(0deg, rgba(227,176,21,1) 0%, rgba(205,189,78,1) 78%, rgba(220,188,68,1) 85%, rgba(233,188,59,1) 91%, rgba(219,167,25,1) 93%, rgba(253,187,45,1) 100%);
     width: 100%;
     color: var(--fc-lite);
-    padding: 1em 3em;
-    text-align: center;
+    padding: 1em 2em;
 }
 
 div.summary {
@@ -99,10 +99,22 @@ div.summary {
     padding: 1rem;
 } 
 
-.intro {
+section.intro {
     background: var(--lite);
     color: var(--medium);
-    padding: 2em;
+    padding: 0.1em;
+}
+
+.explanation,
+.preamble,
+.main, 
+.supporting,
+.participation,
+.benefits,
+.requirements {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.1em;
 }
 
 /* section.intro {
@@ -129,17 +141,6 @@ div.summary p:nth-child(odd) {
     font-weight: var(--fw-heavy);
     padding: 0 7em;
     text-align: center;
-}
-
-.preamble,
-.main, 
-.supporting,
-.participation,
-.benefits,
-.requirements {
-    margin: 0 auto;
-    width: 80%;
-    padding: 2em;
 }
 
 .main {
