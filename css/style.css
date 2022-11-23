@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,100&display=swap');
+
+
+/* CSS reset */
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* custom properties */
+:root {
+    /* font-family */
+   --ff-thin-italic: ;
+
+    /* font weight */
+    --fw-lite: 100;
+   --fw-norm: 400;
+   --fw-medium: 500;
+   --fw-heavy: 900;
+   
+   /* font-size */
+   --fs-small: ;
+   --fs-medium: ;
+   --fs-large: ;
+
+   /* font-colors */
+   --fc-lite: #eee4e4;
+   --fc-medium: #333;
+   --fc-dark: #000;
+
+   /* Bg-colors */
+   --bg-lite-blue: rgb(207, 245, 231);
+   --bg-md-blue: rgb(160, 228, 203);
+   --bg-lite-green: hsl(180, 100%, 15%);
+   --bg-lite-blue: hsl(180, 100%, 35%);
+   /* --bg-drk-blue: rgb(89, 193, 189); */
+   --bg-hvy-blue: rgb(13, 76, 146);
+   --bg-seamoss-green: rgb(109, 152, 134);
+   --bg-drk-charcoal: rgb(57, 62, 70);
+
+}
+
+/* globals */
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0.10em 0.5em;
+}
+
+h2 {
+    margin-top: 0.5em; 
+}
+
+h3 {
+    margin: 0.6em 0;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+/* page wrapper */
+
+.page-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.835rem;
+} 
+
+header {
+    background-color: rgb(169, 169, 214);
+    background-image: url("../images/kari-shea-B8JFJWzAC9s-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;    
+}
+
+header[role="banner"] {
+    width: 100%;
+    color: var(--fc-lite);
+    padding: 2em 1em;
+}
+
+div.summary {
+    background: var();
+    font-style: italic;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em 1em 0 1em;
+}
+
+div.summary p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+div.summary p:nth-child(even) {
+    margin: 1em 0;
+    font-size:1rem;
+}
+
+section.intro {
+    background: var(--lite);
+    color: var(--medium);
+    padding: 0.1em;
+}
+
+.explanation,
+.preamble,
+.main, 
+.supporting,
+.participation,
+.benefits,
+.requirements {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.1em;
+}
+
+/* section.intro {
+    margin: 0 auto;
+    width: 100%;
+    max-width: max-content;
+    background: var(--bg-lite-blue);
+}
+
+header[role="banner"] h1, h2 {
+    font-size: 3.5rem;
+    font-weight: var(--fw-heavy);
+}
+
+div.summary p:nth-child(odd) {
+    margin-bottom: 20px;
+    font-weight: var(--fw-heavy);
+    padding: 0 7em;
+    text-align: center;
+} */
+
+/* div.summary p:nth-child(even) {
+    margin-bottom: 20px;
+    font-weight: var(--fw-heavy);
+    padding: 0 7em;
+    text-align: center;
+}
+
+.main {
+    width: 80%; 
+}  */
