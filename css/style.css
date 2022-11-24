@@ -17,9 +17,9 @@
 
     /* font weight */
     --fw-lite: 100;
-   --fw-norm: 400;
-   --fw-medium: 500;
-   --fw-heavy: 900;
+    --fw-norm: 400;
+    --fw-medium: 500;
+    --fw-heavy: 900;
    
    /* font-size */
    --fs-small: ;
@@ -72,6 +72,7 @@ p {
     line-height: 1.5;
     text-align: justify;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
@@ -86,21 +87,24 @@ img {
 /* page wrapper */
 
 .page-wrapper {
+    background-color: #ffffff;
+    /* background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: luminosity;  */
     margin: 0 auto;
     width: 100%;
     padding: 0.835rem;
 } 
 
-header {
-    background-color: rgb(169, 169, 214);
+header[role="banner"] {
+    /* background-color: rgb(169, 169, 214);
     background-image: url("../images/kari-shea-B8JFJWzAC9s-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-blend-mode: multiply;    
-}
-
-header[role="banner"] {
+    background-blend-mode: multiply;    */
     width: 100%;
     color: var(--fc-lite);
     padding: 2em 1em;
