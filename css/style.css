@@ -180,27 +180,19 @@ footer a {
     font-size: 1.2rem;
 }
 
-footer a:link {
-    color: rgb(88, 42, 4);
-    margin: 0.5em;
-    
-}
-
-footer a:visited {
+footer a:link, a:visited {
     color: rgb(235, 143, 68);
+    margin: 0.5em 0.5em;
 }
 
-footer a:hover {
+footer a:hover, a:active {
     color: rgb(75, 71, 71);
     cursor: pointer;
-    border: 1px solid #3498db;
+    border: 1px solid var(--bg-lite-blue);
     background-color: transparent;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
 
-footer a:active {
-    color: rgb(80, 118, 241);
-}
 
 
 
