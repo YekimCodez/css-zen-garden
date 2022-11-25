@@ -84,8 +84,8 @@ ol {
 img {
     max-width: 100%;
 }
-/* page wrapper */
 
+/* page wrapper */
 .page-wrapper {
     margin: 0 auto;
     width: 100%;
@@ -104,23 +104,23 @@ header[role="banner"] {
     padding: 2em 1em;
 }
 
-div.summary {
+div.summary p:nth-child(odd) {
     background: var();
     font-style: italic;
+    font-size: 1.3rem;
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
     padding: 1em 1em 0 1em;
 }
 
-div.summary p {
-    text-align: center;
-    font-size: 1.1rem;
-}
-
 div.summary p:nth-child(even) {
     margin: 1em 0;
     font-size:1rem;
+    font-style: italic;
+    text-align: center;
+    padding: 1.5em;
+
 }
 
 section.intro {
@@ -130,43 +130,14 @@ section.intro {
 }
 
 .explanation,
-.preamble,
-.main, 
-.supporting,
+.preamble, 
 .participation,
 .benefits,
 .requirements {
-    margin: 0 auto;
+    margin: 1em auto;
     width: 100%;
-    padding: 0.1em;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1em;
 }
 
-/* section.intro {
-    margin: 0 auto;
-    width: 100%;
-    max-width: max-content;
-    background: var(--bg-lite-blue);
-}
-
-header[role="banner"] h1, h2 {
-    font-size: 3.5rem;
-    font-weight: var(--fw-heavy);
-}
-
-div.summary p:nth-child(odd) {
-    margin-bottom: 20px;
-    font-weight: var(--fw-heavy);
-    padding: 0 7em;
-    text-align: center;
-} */
-
-/* div.summary p:nth-child(even) {
-    margin-bottom: 20px;
-    font-weight: var(--fw-heavy);
-    padding: 0 7em;
-    text-align: center;
-}
-
-.main {
-    width: 80%; 
-}  */
