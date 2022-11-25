@@ -141,6 +141,10 @@ section.intro {
     padding: 1em;
 }
 
+.sidebar .wrapper .design-selection li a {
+    
+}
+
 footer {
     background-color: rgb(92, 88, 88);
     text-align: center;
