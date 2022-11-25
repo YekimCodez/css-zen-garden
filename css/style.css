@@ -65,6 +65,9 @@ h2 {
 }
 
 h3 {
+    font-weight: 700;
+    font-style: italic;
+    color: var(--bg-lite-blue);
     margin: 0.6em 0;
 }
 
@@ -147,7 +150,7 @@ section.intro {
 .zen-accessibility,
 .zen-github {
     display: inline-block;
-    background-color: var(--bg-hvy-blue);
+    background-color: var(--bg-lite-blue);
     padding: 0.3em 0.9em;
     border: none;
     border-radius: 50px;
@@ -173,7 +176,7 @@ footer a {
 }
 
 footer a:link {
-    color: rgb(235, 143, 68);
+    color: rgb(88, 42, 4);
     margin: 0.5em;
     
 }
