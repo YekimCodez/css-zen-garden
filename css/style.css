@@ -148,7 +148,7 @@ section.intro {
 footer {
     background-color: rgb(92, 88, 88);
     text-align: center;
-    padding: 2em 0;
+    padding: 2em 4em;
 }
 
 footer a {
@@ -156,4 +156,22 @@ footer a {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 }
+
+footer a:link {
+    color: rgb(51, 51, 51);
+}
+
+footer a:visited {
+    color: rgb(0, 128, 0);
+}
+
+footer a:hover {
+    color: rgb(255, 0, 0);
+}
+
+footer a:active {
+    color: rgb(255, 0, 0);
+}
+
+
 
