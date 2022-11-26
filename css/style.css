@@ -162,6 +162,14 @@ section.intro {
     background-color: var(--bg-lite-blue);
     color: var(--fc-lite);
     padding: 2em;
+    margin-top: 1em;
+}
+
+.select,
+.archives,
+.resources {
+    color: var(--fc-lite);
+    padding: 1em 0;
 }
 
 footer {
