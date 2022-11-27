@@ -203,11 +203,21 @@ a.designer-name,
 a.design-name {
     display: block;
     text-align: center;
+    position: relative;
+    margin: 1em 1em;
+    padding: 1em 0;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--fc-lite);
+    font-family: 'Roboto', sans-serif;
+    transition: underline 2s;
 }
 
 a.designer-name:hover,
 a.design-name:hover {
-    color: var(--fc-lite);
+    color: var(--bg-lite-blue);
+    text-decoration: underline;
+
 }
 
 
