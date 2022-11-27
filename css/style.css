@@ -199,6 +199,17 @@ footer a:hover, a:active {
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
 }
 
+a.designer-name,
+a.design-name {
+    display: block;
+    text-align: center;
+}
+
+a.designer-name:hover,
+a.design-name:hover {
+    color: var(--fc-lite);
+}
+
 
 
 
